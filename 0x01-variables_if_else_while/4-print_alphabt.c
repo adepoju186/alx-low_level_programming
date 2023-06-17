@@ -16,7 +16,7 @@ int main(void)
 	{
 		putchar(alphabet);
 	}
-	alphabet = tolower(alphabet)`;
+	alphabet = tolower(alphabet);
 	putchar('\n');
 
 	return (0);
