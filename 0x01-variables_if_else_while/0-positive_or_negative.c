@@ -4,7 +4,7 @@
 
 
 /**
- * main - Entry point 
+ * main - Entry point
  * Description: code picks random number each time
  * And then  decide whether it is positive or negative
  *
@@ -27,7 +27,7 @@ int main(void)
 
 	else if (n == 0)
 
-	printf("%d is 0\n", n);
+	printf("%d is zero\n", n);
 
 	else if (n < 0)
 
