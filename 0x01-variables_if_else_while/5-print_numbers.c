@@ -12,10 +12,10 @@ int main(void)
 	for (digits = 0; digits < 10; digits++)
 
 	{
-		pritntf("%d", digits);
+		printf("%d", digits);
 	}
 
-	printf('\n')0;
+	printf('\n');
 
 	return (0);
 }
