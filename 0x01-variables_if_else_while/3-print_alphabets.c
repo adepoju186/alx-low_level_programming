@@ -22,7 +22,7 @@ int main(void)
 		putchar(alphabet);
 	}
 	alphabet = toupper(alphabet);
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
 }
