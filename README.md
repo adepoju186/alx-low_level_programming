@@ -1,1 +1,1 @@
-C low level programming language
+Variables and Loop function in C
