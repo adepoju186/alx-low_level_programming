@@ -5,8 +5,8 @@
  * main - Lists the alphabet
  * Description: without the letters 'q' and 'e'
  * All in lowercase
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	char alphabet;
@@ -16,6 +16,7 @@ int main(void)
 	{
 		putchar(alphabet);
 	}
+	alphabet = tolower(alphabet)`;
 	putchar('\n');
 
 	return (0);
