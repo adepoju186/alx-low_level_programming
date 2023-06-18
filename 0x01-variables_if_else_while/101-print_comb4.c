@@ -10,11 +10,11 @@ int main(void)
 {
 	int dig1, dig2, dig3;
 
-	for (dig1 = 48; dig1 <= 58; dig1++)
+	for (dig1 = 48; dig1 < 58; dig1++)
 	{
-		for (dig2 = 49; dig2 <= 58; dig2++)
+		for (dig2 = 49; dig2 < 58; dig2++)
 		{
-			for (dig3 = 50; dig3 <= 58; dig3++)
+			for (dig3 = 50; dig3 < 58; dig3++)
 			{
 				if (dig3 > dig2 && dig2 > dig1)
 				{
