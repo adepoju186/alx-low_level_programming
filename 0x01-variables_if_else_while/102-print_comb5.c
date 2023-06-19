@@ -1,10 +1,8 @@
-#include <stdio.h>
-
- /**
-  * main - Entry
-  * Description: followed by a new line
-  * Return: Always 0 (Success)
-  */
+#include<stdio.h>
+/**
+ * main - Entry point
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int digit1, digit2;
