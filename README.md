@@ -1,1 +1,1 @@
-Variables and Loop function in C
+FUNCTIONS AND NESTED LOOPS
