@@ -36,9 +36,9 @@ int main(void)
 		digit1 = digit2;
 		digit2 = digit3;
 		if (c >= 100)
-			printf("%lu0%lu", digit3, p);
+			printf("%lu0%lu", digit3, c);
 		else
-			printf("%lu0%lu", digit3, p);
+			printf("%lu0%lu", digit3, c);
 		if (fibonacci != 98)
 			printf(", ");
 		fibonacci++;
