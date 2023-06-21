@@ -10,7 +10,7 @@ int main(void)
 	int mult, output;
 
 	for (mult  = 0; mult < 1024; mult++)
-		if (mutl % 3 == 0 || mult % 5 == 0)
+		if (mult % 3 == 0 || mult % 5 == 0)
 			output += mult;
 	printf("%d\n", output);
 	return (0);
