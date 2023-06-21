@@ -19,7 +19,7 @@ int main(void)
 		digit2 = digit3;
 		printf("%lu, ", digit3);
 	}
-	a = digt1 % 1000;
+	a = digit1 % 1000;
 	digit1 = digit1 / 1000;
 	b = digit2 % 1000;
 	digit2 = digit2 / 1000;
@@ -35,10 +35,10 @@ int main(void)
 		b = c;
 		digit1 = digit2;
 		digit2 = digit3;
-		if (p >= 100)
+		if (c >= 100)
 			printf("%lu0%lu", digit3, p);
 		else
-			print("%lu0%lu", digit3, p);
+			printf("%lu0%lu", digit3, p);
 		if (fibonacci != 98)
 			printf(", ");
 		fibonacci++;
