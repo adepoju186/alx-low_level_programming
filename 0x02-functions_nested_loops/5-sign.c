@@ -6,7 +6,8 @@
  *@n: integer(s) to be checked
  *Return: 1 if positive, 0 if negative, and -1 if not an integer
  */
-int print_sign(int n);
+int print_sign(int n)
+
 {
 	if (n > 0)
 	{
