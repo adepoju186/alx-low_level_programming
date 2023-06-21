@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	unsigned long fibonacci dig1, dig2, dig3, result;
+	unsigned long fibonacci, dig1, dig2, dig3, result;
 
 	dig1 = result = 0;
 	dig2 = 1;
