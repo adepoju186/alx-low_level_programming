@@ -22,7 +22,7 @@ void print_times_table(int n)
 				}
 				if (output < 10 && dig2 != 0)
 				{
-					_putchar(' ');
+					_putchar(',');
 					_putchar(' ');
 					_putchar((output % 10) + '0');
 				}
