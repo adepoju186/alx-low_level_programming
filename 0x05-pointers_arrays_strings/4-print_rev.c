@@ -16,7 +16,7 @@ void print_rev(char *s)
 	for (dent = 0; s[dent] != '\0'; ++dent)
 		;
 	for (--dent; dent >= 0; --dent)
-		_putchar(s[index]);
+		_putchar(s[dent]);
 	_putchar('\n');
 }
 
