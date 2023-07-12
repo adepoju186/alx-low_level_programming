@@ -26,7 +26,7 @@ char *_strdup(char *str)
 	if (second == NULL)
 		return (NULL);
 
-	for (; second[i] = str[i] != '\0'; i++)
+	for (; (second[i] = str[i]) != '\0'; i++)
 	{
 
 	}
