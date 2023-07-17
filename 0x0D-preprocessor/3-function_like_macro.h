@@ -12,6 +12,6 @@
  * Return: absolute value of number
  */
 
-#define AB(x) (((x) < 0) ? ((x) * -1) : ((x) * 1))
+#define ABS(x) (((x) < 0) ? ((x) * -1) : ((x) * 1))
 
 #endif /* ABS_H */
